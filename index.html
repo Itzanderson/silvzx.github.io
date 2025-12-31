@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Silvzx | Links Oficiais</title>
 
+  <!-- ÍCONES REAIS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #0a0a0a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(35px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: #121212;
+      border-radius: 26px;
+      padding: 40px 28px;
+      text-align: center;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+      animation: fadeUp 1s ease;
+    }
+
+    h1 {
+      font-size: 36px;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      opacity: 0.75;
+      margin-bottom: 32px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin: 16px 0;
+      padding: 18px;
+      border-radius: 18px;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      background: #1e1e1e;
+      border: 1px solid #2a2a2a;
+      transition: transform 0.25s, box-shadow 0.25s, background 0.25s;
+    }
+
+    .link.instagram {
+      border-color: #dd2a7b;
+    }
+
+    .link.whatsapp {
+      border-color: #25D366;
+    }
+
+    .link:hover {
+      transform: scale(1.06);
+      background: #242424;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+    }
+
+    footer {
+      margin-top: 26px;
+      font-size: 13px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Silvzx</h1>
+    <p class="subtitle">Links oficiais • Contato direto</p>
+
+    <a class="link instagram"
+       href="https://www.instagram.com/silvzzx1._?igsh=NHQ1dDdiazV1cXdj"
+       target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+      Instagram
+    </a>
+
+    <a class="link whatsapp"
+       href="https://wa.me/5583982168666"
+       target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+      WhatsApp
+    </a>
+
+    <a class="link" href="#">
+      <i class="fa-solid fa-rocket"></i>
+      Projetos (em breve)
+    </a>
+
+    <footer>
+      © 2025 • Silvzx
+    </footer>
+  </div>
+
+</body>
+</html>
